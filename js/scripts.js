@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $("ul#places").append("<li><span class='place'>" + newPlace.placeName + "</span></li>");
 
-    $("input#new-name").val("");
+    $("input#new-place-name").val("");
     $("input#new-city").val("");
     $("input#new-state").val("");
     $("input#new-country").val("");
@@ -21,9 +21,8 @@ $(document).ready(function() {
     $("input#new-note").val("");
 
     $(".place").last().click(function(){
-      $("#show-contact").show();
-      $("#show-contact h2").text(newPlace.placeName);
-      $(".placeName").text(newPlace.placeName);
+      $("#show-place").show();
+      $("#show-place h2").text(newPlace.placeName);
       $(".city").text(newPlace.city);
       $(".state").text(newPlace.state);
       $(".country").text(newPlace.country);
