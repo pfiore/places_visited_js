@@ -1,5 +1,5 @@
-# Name:
-# Date:
+# Name: Brian Kropff & Patrick Fiorentino
+# Date: April 13, 2015
 
 Description:
 
